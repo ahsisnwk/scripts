@@ -1,19 +1,16 @@
-let url=$request.url;
-let body=$response.body;
+var url=location.href;
 
 switch(true)
 {
 case url.includes("zxcs.me/post"):
-body=body.replace(/<img[\s\S]*?>/g,'');
-body=body.replace(/<p>[\s\S]*?<br>[\s\S]*?<\/p>/g,'');
-body=body.replace(/<div class="log_a"[\s\S]*?<\/body>/g,'</body>');
-body=body.replace(/<div id="vote"[\s\S]*?<\/div>/g,'');
-body=body.replace(/<p class="yinyong"[\s\S]*?<\/p>/g,'');
 
+body=body.replace(/<\/body>/g,'<script>$(".yinyong,#vote,.clear,.log_a,#footer,#lujing,.postinfo,.ajax_comment").remove();</script></body>');
 break;
 
+
+
 case url.includes("zxcs.me/download"):
-     body=body.replace(/<div class="(diybanner|banner)[\s\S]*?<\/div>/g,'');
-     break;
+
+body=body.replace(/<\/body>/g,'<script>$(".diybanner,.banner,.panel:last").remove(); </script></body>');
+break;
 }
-$done(body);
