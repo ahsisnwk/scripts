@@ -22,11 +22,3 @@ DOMAIN,www.googleadservices.com
 DOMAIN-KEYWORD,adservice.google.com.
 # 腾讯 无法使用的推送服务
 DOMAIN,tpns.qq.com
-
-DOMAIN-SUFFIX,kuwo.cn
-IP-CIDR,10.0.0.0/8
-IP-CIDR,127.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,192.168.0.0/16
-IP-CIDR,224.0.0.0/24
-IP-CIDR,182.254.116.0/24
