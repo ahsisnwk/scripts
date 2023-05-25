@@ -1,0 +1,32 @@
+# Apple
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+
+# 安全浏览限制解除
+DOMAIN,lookup.api.bsb.baidu.com
+DOMAIN,proxy.safebrowsing.apple
+DOMAIN,safebrowsing.g.applimg.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,token.safebrowsing.apple
+DOMAIN,vs6.bj2ct.u3.ucweb.com
+DOMAIN-SUFFIX,safebrowsing.apple
+DOMAIN-SUFFIX,u3.ucweb.com
+# Foreca & Google
+DOMAIN,adservice.google.com
+DOMAIN,googleads.g.doubleclick-cn.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,pubads.g.doubleclick.net
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,www.googleadservices.com
+DOMAIN-KEYWORD,adservice.google.com.
+# 腾讯 无法使用的推送服务
+DOMAIN,tpns.qq.com
+
+DOMAIN-SUFFIX,kuwo.cn
+IP-CIDR,10.0.0.0/8
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,224.0.0.0/24
+IP-CIDR,182.254.116.0/24
